@@ -86,7 +86,8 @@ body{
 }
 
 .padding{
-	padding-left: 100px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 /*
 .nav{
@@ -123,6 +124,13 @@ html *{
 	font-family: calibri;
 }
 
+.list-group-item{
+	background-color: #e6e6e6;
+	border: 0;
+}
+
+
+
 
 
 
@@ -135,3 +143,16 @@ html *{
 	font-family: letra;
 	font-size: 380%;
 }
+
+@media (max-width: 538px) {
+	.lista{
+		column-count: 2;
+	}
+}
+
+@media (max-width: 396px) {
+	.lista{
+		column-count: 1;
+	}
+}
+  
