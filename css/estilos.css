@@ -2,3 +2,115 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
+.icon-red {
+	color: red;
+  }
+.icon-orange {
+	color: #ff9300;
+ }
+.icon-green {
+	color: #09e700;
+}
+
+.icon-facil{
+	color: #0097ff;
+	margin-right: 3px;
+}
+.icon-media{
+	color:rgb(255, 255, 20);
+	margin-right: 3px;
+}
+.icon-dificil{
+	color: black;
+	margin-right: 3px;
+}
+
+.derecha{
+	float: right;
+	margin-top: 6px;
+}
+.derechainfo{
+	position: relative;
+	float: right;
+	margin-top: -26px;
+	margin-right: -5px;
+}
+
+.cardcenter {
+	margin: 0 auto; /* Added */
+	float: none; /* Added */
+	margin-bottom: 10px; /* Added */
+}
+
+body{
+	background-color: #e6e6e6;
+}
+.container{
+	background-color: white;
+}
+
+.contenedor{
+	border-radius: 1%;
+}
+
+
+.btninfo{
+	padding: .250rem .35rem
+}
+
+.colord{
+	color: #f18d00;
+}
+
+.colorv{
+	color: rgb(180, 58, 180);
+}
+
+
+.cardbodyred{
+	background-color: #ffd8d8;
+}
+
+.cardbodyorange{
+	background-color: hwb(35 71% 2%);
+}
+
+.cardbodyverde{
+	background-color: hsl(118, 87%, 94%);
+}
+
+.guiauso{
+	background-color: #e6e6e6;
+	padding: 10px 10px 10px 10px;
+}
+
+.padding{
+	padding-left: 100px;
+}
+/*
+.nav{
+	background-color: #cf96db ;	
+}
+.nav .nav-item .active{
+	background-color: #d6bfda ;
+}*/
+/*
+.funko{
+	background-color: #e6e6e6;
+	border-radius: 10px;
+}*/
+.lista{
+	column-count: 3;
+}
+.lista li{
+	padding-top: 10px;
+}
+.justificado{
+	text-align: justify;
+}
+
+html *{
+	font-family: calibri;
+	
+}

@@ -7,12 +7,13 @@
 	<title>Cards</title>
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" href="../css/estilos.css">
+	
 </head>
 <body>
 	<div class="container">
 
 		<header class="row mt-3">
-			<div class="col">
+			<div class="col mt-3">
 				<div class="card">
 					<div class="card-body">
 						<h1><center>Bienvenidos al rincón de David y Valeria</center></h1>
@@ -33,77 +34,1064 @@
 			</div>
 		</div>
 
+		<div class="row my-3">
+			<div class="col">
+				<div class="card guiauso justificado">
+					<center><h3>Guia de uso</h3></center>
+					<div class="padding">
+						<ul>
+							<li>
+								Cada funko tendrá un color de fondo (y un icono en la esquina superior derecha) que indicará el estado de posesión: 
+								<ul>
+								<li>
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle icon-red" viewBox="0 0 16 16">
+										<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+										<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+									</svg>
+									Rojo: No lo tenemos.
+								</li>
+								<li>
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle icon-orange " viewBox="0 0 16 16">
+										<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+										<path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+									</svg>
+									Naranja: Está reservado.
+								</li>
+								<li>
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle icon-green " viewBox="0 0 16 16">
+										<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+										<path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+									</svg>
+									Verde: Lo tenemos.
+								</li>
+								</ul>
+								
+							</li>
+							<li>
+								Al lado del icono del estado del funko, encontraremos otro que nos indica la dificultad para encontrarlo:
+								<ul>
+									<li>
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-dificil" viewBox="0 0 16 16">
+											<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+										</svg>
+										Negro: Ni los dioses lo encontrarán tan fácil, por no olvidarnos de que el precio para adquirirlo será elevado.
+									</li>
+									<li>
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-media" viewBox="0 0 16 16">
+											<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+										</svg>
+										Amarillo: Algunas veces lo encontrarás facil y otras tendrás que sacar el pico y la pala para encontrarlo en alguna pagina web. El precio suele subir un poco.
+									</li>
+									<li>
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-facil" viewBox="0 0 16 16">
+											<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+										</svg>
+										Azúl: Lo encontrarás hasta debajo de las piedras.
+									</li>
+								</ul>
+							</li>
+							<li>
+								En la parte inferior derecha encontrareis un icono de informacion que indica quien es el que quiere ese funko:
+								<ul>
+									<li>
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle colord" viewBox="0 0 16 16">
+											<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+											<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+										</svg>
+										Naranja: Lo quiere David.
+									</li>
+									<li>
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle colorv" viewBox="0 0 16 16">
+											<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+											<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+										</svg>
+										Morado: Lo quiere Valeria.
+									</li>
+								</ul>
+							</li>
+
+							<li>
+								¡Atención! Se pone Amazon como la web de compra para usarlo de referencia. Pero en la siguiente lista encontrarás otras webs de referencia:
+									<ul class="lista">
+										<li>
+											<a href="https://frikimon.es/?s=funko+pop+pokemon&post_type=product">
+											<button type="button" class="btn btn-info">Frikimon</button></a>
+										</li>
+										<li>
+											<a href="https://pophunter.es/module/iqitsearch/searchiqit?s=pokemon">
+											<button type="button" class="btn btn-info">PopHunter</button></a>
+										</li>
+										<li>
+											<a href="https://funkilandia.com/">
+											<button type="button" class="btn btn-info">FunkiLandia</button></a>
+										</li>
+										<li>
+											<a href="https://www.global-freaks.com/es/pokemon/#q=pokemon">
+											<button type="button" class="btn btn-info">GlobalFreaks</button></a>
+										</li>
+										<li>
+											<a href="https://bellascositas.es/busqueda?controller=search&s=pokemon">
+											<button type="button" class="btn btn-info">BellasCositas</button></a>
+										</li>
+										<li>
+											<a href="https://bluestarimport.com/?s=pokemon+funko&post_type=product">
+											<button type="button" class="btn btn-info">Bluestarimport</button></a>
+										</li>
+										<li>
+											<a href="https://m-arian.com">
+											<button type="button" class="btn btn-info">M-Arian</button></a>
+										</li>
+										<li>
+											<a href="https://pinkork.es/">
+											<button type="button" class="btn btn-info">Pinkork</button></a>
+										</li>
+										<li>
+											<a href="https://tomapati.com/?product_cat=0&s=funko+pop+pokemon&post_type=product">
+											<button type="button" class="btn btn-info">Tomapati</button></a>
+										</li>
+										<li>
+											<a href="https://funkoeurope.com/search?type=product&options%5Bprefix%5D=last&q=pokemon">
+											<button type="button" class="btn btn-info">FukoEurope</button></a>
+										</li>
+										<li>
+											<a href="https://www.frikimasters.es/module/ambjolisearch/jolisearch?s=pokemon+funko">
+											<button type="button" class="btn btn-info">FrikiMasters</button></a>
+										</li>
+									</ul>
+							</li>
+						</ul>
+					
+
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<div class="row mt-3  widgets justify-content-between ">
-			<div class="col-12 col-md-4 col-lg-2 ">
-				<div class="card">
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card cardbodyred">
 					<img class="card-img-top" src="img/bg.jpg" alt="">
 					<div class="card-body">
-						<h5 class="card-title">Funko Pop!</h5>
+						<h5 class="card-title funko">Pikachu
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle icon-red derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-facil derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
 						<p class="card-text">
-							<img src="../img/pikachu1.PNG" class="img-fluid margenes"> 
+							<center><img src="../img/pikachu1.png" class="img-fluid margenes"> </center>
 						</p>
-						<center><a href="funkos.html" class="btn btn-outline-primary">Ir a la sección</a></center>
+						<center><a href="https://www.amazon.es/Funko-Pop-Disney-MALEFICA-Chase/dp/B01MFX366P?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=32ERFQAZNGO5A&keywords=funko+pop+pokemon&qid=1650904495&sprefix=funko+pop+pokemon,aps,95&sr=8-1&linkCode=sl1&tag=lista-funkos-21&linkId=1eb" class="btn btninfo btn-outline-primary">Amazon</a></center>
+						<div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle derechainfo colord" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+							</svg>
+						</div>
 					</div>
 				</div>
 			</div>
 
 
-			<div class="col-12 col-md-4 col-lg-2">
-				<div class="card">
-					<div class="card-body">
-						<h5 class="card-title">Titulo</h5>
-						<h6 class="card-subtitle text-muted mb-2">Subtitulo</h6>
-						<p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus magnam quia nesciunt, odit obcaecati dicta molestiae ullam, quam omnis saepe illo veniam placeat ipsum vel iste quas voluptatum.</p>
-						<a href="#" class="btn btn-outline-primary">Boton</a>
-					</div>
-					<img class="card-img-bottom" src="img/bg.jpg" alt="">
-				</div>
-			</div>
-
-			<div class="col-12 col-md-4 col-lg-2">
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch ">
 				<div class="card">
 					<img class="card-img-top" src="img/bg.jpg" alt="">
-					<div class="card-body">
-						<h5 class="card-title">Titulo</h5>
-						<h6 class="card-subtitle text-muted mb-2">Subtitulo</h6>
-						<p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus magnam quia nesciunt, odit obcaecati dicta molestiae ullam, quam omnis saepe illo veniam placeat ipsum vel iste quas voluptatum.</p>
-						<a href="#" class="btn btn-outline-primary">Boton</a>
+					<div class="card-body cardbodyred">
+						<h5 class="card-title funko">Bulbasaur
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle icon-red derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-facil derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/bulbasaur.PNG" class="img-fluid margenes"> </center>
+						</p>
+						<center><a href="https://www.amazon.es/Funko-50404-Pok%C3%A9mon-Bulbasaur-Bisasam/dp/B08RZBX1G9/ref=sr_1_1?keywords=funko+pop+pokemon+bulbasaur&qid=1664218925&sprefix=funko+pop+pokemon%2Caps%2C100&sr=8-1" class="btn btninfo btn-outline-primary">Amazon</a></center>
+						<div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle derechainfo colord" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+							</svg>
+						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-12 col-md-4 col-lg-2">
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
 				<div class="card">
 					<img class="card-img-top" src="img/bg.jpg" alt="">
-					<div class="card-body">
-						<h5 class="card-title">Titulo</h5>
-						<h6 class="card-subtitle text-muted mb-2">Subtitulo</h6>
-						<p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus magnam quia nesciunt, odit obcaecati dicta molestiae ullam, quam omnis saepe illo veniam placeat ipsum vel iste quas voluptatum.</p>
-						<a href="#" class="btn btn-outline-primary">Boton</a>
+					<div class="card-body cardbodyred">
+						<h5 class="card-title funko">Charmander
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle icon-red derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-facil derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/charmander.PNG" class="img-fluid margenes"> </center>
+						</p>
+						<center><a href="https://www.amazon.es/Funko-Pop-37603-Charmander-455/dp/B08Z4BTF1R/ref=sr_1_2?keywords=funko+pop+charmander&qid=1664219003&sprefix=funko+pop+c%2Caps%2C145&sr=8-2" class="btn btninfo btn-outline-primary">Amazon</a></center>
+						<div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle derechainfo colord" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+							</svg>
+						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-12 col-md-4 col-lg-2">
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
 				<div class="card">
 					<img class="card-img-top" src="img/bg.jpg" alt="">
-					<div class="card-body">
-						<h5 class="card-title">Titulo</h5>
-						<h6 class="card-subtitle text-muted mb-2">Subtitulo</h6>
-						<p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus magnam quia nesciunt, odit obcaecati dicta molestiae ullam, quam omnis saepe illo veniam placeat ipsum vel iste quas voluptatum.</p>
-						<a href="#" class="btn btn-outline-primary">Boton</a>
+					<div class="card-body cardbodyred">
+						<h5 class="card-title funko">Squirtle
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle icon-red derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-facil derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/squirtle.PNG" class="img-fluid margenes"> </center>
+						</p>
+						<center><a href="https://www.amazon.es/Pop-Pokemon-Squirtle-Vinyl-Figure/dp/B07V8KG7ND/ref=sr_1_2_sspa?crid=3B47RW8OKGFVE&keywords=funko+pop+squirtle&qid=1664219026&sprefix=funko+pop+sq%2Caps%2C92&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFYNk1JOFVWTEtRSDgmZW5jcnl" class="btn btninfo btn-outline-primary">Amazon</a></center>
+						<div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle derechainfo colord" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+							</svg>
+						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-12 col-md-4 col-lg-2">
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
 				<div class="card">
 					<img class="card-img-top" src="img/bg.jpg" alt="">
-					<div class="card-body">
-						<h5 class="card-title">Titulo</h5>
-						<h6 class="card-subtitle text-muted mb-2">Subtitulo</h6>
-						<p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus magnam quia nesciunt, odit obcaecati dicta molestiae ullam, quam omnis saepe illo veniam placeat ipsum vel iste quas voluptatum.</p>
-						<a href="#" class="btn btn-outline-primary">Boton</a>
+					<div class="card-body cardbodyred">
+						<h5 class="card-title funko">Eevee
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle icon-red derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-facil derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/eevee.PNG" class="img-fluid margenes"> </center>
+						</p>
+						<center><a href="https://www.amazon.es/Funko-Pop-Games-Pok%C3%A9monTM-Figure/dp/B081TQYG3N/ref=sr_1_3?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2E59NILNRNO8T&keywords=funko+Eevee&qid=1664219096&sprefix=funko+eevee%2Caps%2C76&sr=8-3" class="btn btninfo btn-outline-primary">Amazon</a></center>
+						<div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle derechainfo colorv" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyverde">
+						<h5 class="card-title funko">Pichu
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle icon-green derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-facil derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/pichu.PNG" class="img-fluid margenes"> </center>
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			<!------------------------------------------------------------------------------------------------------------------------------------------------>			
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyverde">
+						<h5 class="card-title funko">Vulpix
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle icon-green derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-facil derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/vulpix.png" class="img-fluid margenes"> </center>
+						</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch ">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyred">
+						<h5 class="card-title funko">Mewtwo
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle icon-red derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-facil derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/mewtwo.PNG" class="img-fluid margenes"> </center>
+						</p>
+						<center><a href="https://www.amazon.es/Funko-Pop-Games-Pokemon-Mewtwo/dp/B084DX4Z98?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=32ERFQAZNGO5A&keywords=funko+pop+pokemon&qid=1650904495&sprefix=funko+pop+pokemon,aps,95&sr=8-3&linkCode=sl1&tag=lista-funkos-21&linkId=c2df" class="btn btninfo btn-outline-primary">Amazon</a></center>
+						<div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle derechainfo colord" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyverde">
+						<h5 class="card-title funko ">Mr. Mime
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle icon-green derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-facil derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/mrmime.PNG" class="img-fluid margenes"> </center>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyred">
+						<h5 class="card-title funko ">Rattata
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle icon-red derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-media derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/rattata.PNG" class="img-fluid margenes"> </center>
+						</p>
+						<center><a href="https://www.amazon.es/Funko-Pop-Games-Pok%C3%A9monTM-Rattata/dp/B084R4D6XF/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3VY7933QK5UOD&keywords=pop+rattata&qid=1668170259&qu=eyJxc2MiOiIwLjI1IiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=pop+rattata%2Caps%2C126&sr=8-1" class="btn btninfo btn-outline-primary">Amazon</a></center>
+						<div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle derechainfo colord" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyred">
+						<h5 class="card-title funko">Cubone
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle icon-red derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-facil derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/cubone.PNG" class="img-fluid margenes"> </center>
+						</p>
+						<center><a href="https://www.amazon.es/Funko-Pop-Games-Pokemon-Cubone/dp/B09Q954BWL/ref=sr_1_2?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2165HC8S9W1FW&keywords=funko+pop+cubone&qid=1664219344&sprefix=funko+pop+cubone%2Caps%2C105&sr=8-2" class="btn btninfo btn-outline-primary">Amazon</a></center>
+						<div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle derechainfo colorv" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyred">
+						<h5 class="card-title funko">Growlithe
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle icon-red derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-media derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/grow.PNG" class="img-fluid margenes"> </center>
+						</p>
+						<center><a href="https://www.amazon.es/Pokemon-Growlithe-Bundled-protectora-Compatible/dp/B09RW86NQB/ref=sr_1_1?keywords=funko+pop+growlithe&qid=1664219399&sprefix=funko+pop+growl%2Caps%2C82&sr=8-1" class="btn btninfo btn-outline-primary">Amazon</a></center>
+						<div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle derechainfo colord" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!------------------------------------------------------------------------------------------------------------------------------------------------>	
+		
+
+
+
+
+
+			
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyorange">
+						<h5 class="card-title funko">Arcanine
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle icon-orange derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+							  </svg>
+
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-facil derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/arcanine.PNG" class="img-fluid margenes"> </center>
+						</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch ">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyverde">
+						<h5 class="card-title funko">Ponyta
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle icon-green derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-media derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/ponyta.PNG" class="img-fluid margenes"> </center>
+						</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyverde">
+						<h5 class="card-title funko">Vaporeon
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle icon-green derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-facil derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/vaporeon.PNG" class="img-fluid margenes"> </center>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyred">
+						<h5 class="card-title funko">Jolteon
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle icon-red derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-facil derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/jolteon.PNG" class="img-fluid margenes"> </center>
+						</p>
+						<center><a href="https://www.amazon.es/Funko-Pop-Games-Pokemon-Jolteon/dp/B0863KB25G?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=32ERFQAZNGO5A&keywords=funko+pop+pokemon&qid=1650904495&sprefix=funko+pop+pokemon,aps,95&sr=8-37&linkCode=sl1&tag=lista-funkos-21&linkId=81" class="btn btninfo btn-outline-primary">Amazon</a></center>
+						<div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle derechainfo colord" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyred">
+						<h5 class="card-title funko">Flareon
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle icon-red derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-facil derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/flareon.PNG" class="img-fluid margenes"> </center>
+						</p>
+						<center><a href="https://www.amazon.es/Funko-Pop-Games-Pokemon-Flareon/dp/B09Q94JTDS/ref=sr_1_2?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3RUD5OUGRDRWC&keywords=funko+pop+flareon&qid=1664219531&sprefix=funko+pop+flareon%2Caps%2C74&sr=8-2" class="btn btninfo btn-outline-primary">Amazon</a></center>
+						<div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle derechainfo colord" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyorange">
+						<h5 class="card-title funko">Sylveon
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle icon-orange derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+							  </svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-dificil derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/sylveon.PNG" class="img-fluid margenes"> </center>
+						</p>
+						
+					</div>
+				</div>
+			</div>
+						
+			<!------------------------------------------------------------------------------------------------------------------------------------------------>	
+
+						
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyverde">
+						<h5 class="card-title funko">Leafeon
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle icon-green derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+							</svg>
+
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-media derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/leafeon.PNG" class="img-fluid margenes"> </center>
+						</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch ">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyorange">
+						<h5 class="card-title funko">Espeon
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle icon-orange derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-facil derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/espeon.PNG" class="img-fluid margenes"> </center>
+						</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyorange">
+						<h5 class="card-title funko">Glaceon
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle icon-orange derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-facil derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/glaceon.PNG" class="img-fluid margenes"> </center>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyverde">
+						<h5 class="card-title funko">Charizard
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle icon-green derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-facil derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/charizard.PNG" class="img-fluid margenes"> </center>
+						</p>
+						
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyverde">
+						<h5 class="card-title funko">Horsea
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle icon-green derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-media derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/horsea.PNG" class="img-fluid margenes"> </center>
+						</p>
+						
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyverde">
+						<h5 class="card-title funko">Caterpie
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle icon-green derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-media derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/caterpie.PNG" class="img-fluid margenes"> </center>
+						</p>
+						
+					</div>
+				</div>
+			</div>
+			<!------------------------------------------------------------------------------------------------------------------------------------------------>	
+		
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyorange">
+						<h5 class="card-title funko">Pidgeotto
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle icon-orange derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+							</svg>
+
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-media derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/pidgeotto.PNG" class="img-fluid margenes"> </center>
+						</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch ">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyorange">
+						<h5 class="card-title funko">Dragonite
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle icon-orange derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+							</svg>
+
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-media derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/dragonite.PNG" class="img-fluid margenes"> </center>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyorange">
+						<h5 class="card-title funko">Alakazam
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle icon-orange derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+							</svg>
+
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-media derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/alakazam.PNG" class="img-fluid margenes"> </center>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyred">
+						<h5 class="card-title funko">Lucario
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle icon-red derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-dificil derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/lucario.PNG" class="img-fluid margenes"> </center>
+						</p>
+							<center><a href="https://www.amazon.es/POP-Games-Pokemon-S9-Lucario/dp/B09GBP6LQR/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1WH3B6KTQPAGE&keywords=lucario+funko&qid=1669831293&qu=eyJxc2MiOiIyLjMyIiwicXNhIjoiMC45OCIsInFzcCI6IjAuOTIifQ%3D%3D&sprefix=lucario+funko%2Caps%2C80&sr=8-1" class="btn btninfo btn-outline-primary">Amazon</a></center>
+						<div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle derechainfo colorv" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyred">
+						<h5 class="card-title funko">Lapras
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle icon-red derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-media derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/lapras.PNG" class="img-fluid margenes"> </center>
+						</p>
+						<center><a href="https://www.amazon.es/FUNKO-POP-GAMER-Pokemon-Lapras/dp/B09LJTNJ8S/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=21BTGZA9MFKB5&keywords=funko+pop+lapras&qid=1664219972&sprefix=funko+poo+lapras%2Caps%2C79&sr=8-1" class="btn btninfo btn-outline-primary">Amazon</a></center>
+						<div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle derechainfo colorv" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyred">
+						<h5 class="card-title funko">Piplup
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle icon-red derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-media derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/piplup.PNG" class="img-fluid margenes"> </center>
+						</p>
+						<center><a href="https://www.amazon.es/Personaggio-collezione-Funko-Pok%C3%A9mon-Piplup/dp/B09LJTYNF4/ref=sr_1_1?keywords=funko+pop+piplup&qid=1664219978&sprefix=funko+poo+pip%2Caps%2C81&sr=8-1" class="btn btninfo btn-outline-primary">Amazon</a></center>
+						<div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle derechainfo colorv" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!------------------------------------------------------------------------------------------------------------------------------------------------>	
+		
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyred">
+						<h5 class="card-title funko">Raichu
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle icon-red derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+							</svg>
+
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-media derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/raichu.PNG" class="img-fluid margenes"> </center>
+						</p>
+						<center><a href="https://www.amazon.es/Funko-Pop-Games-Pokemon-Raichu/dp/B08NWDXS68?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=32ERFQAZNGO5A&keywords=funko+pop+pokemon&qid=1650904495&sprefix=funko+pop+pokemon,aps,95&sr=8-11&linkCode=sl1&tag=lista-funkos-21&linkId=159f6a538af8ad6e11912da1e8431467&language=es_ES&ref_=as_li_ss_tl" class="btn btninfo btn-outline-primary">Amazon</a></center>
+						<div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle derechainfo colord" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch ">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyred">
+						<h5 class="card-title funko">Psyduck
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle icon-red derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+							</svg>
+
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-media derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/psyduck.PNG" class="img-fluid margenes"> </center>
+						</p>
+						<center><a href="https://www.amazon.es/Funko-Pop-Games-Pokemon-coleccionable/dp/B08SV4YLZG/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=42O1VG363I1C&keywords=pop+Psyduck&qid=1668170281&qu=eyJxc2MiOiIwLjkxIiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=pop+psyduck+%2Caps%2C83&sr=8-1" class="btn btninfo btn-outline-primary">Amazon</a></center>
+						<div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle derechainfo colord" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyorange">
+						<h5 class="card-title funko">Munchlax
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle icon-orange derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+							</svg>
+
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-facil derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/munchalx.PNG" class="img-fluid margenes"> </center>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyorange">
+						<h5 class="card-title funko">Oshawoot
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle icon-orange derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+							</svg>
+
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-facil derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/Oshawoot.PNG" class="img-fluid margenes"> </center>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyorange">
+						<h5 class="card-title funko">Meowth
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle icon-orange derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+							</svg>
+
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-media derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/meowth.PNG" class="img-fluid margenes"> </center>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyred">
+						<h5 class="card-title funko">Mew
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle icon-red derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+							</svg>
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-media derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/mew.PNG" class="img-fluid margenes"> </center>
+						</p>
+						<center><a href="https://www.amazon.es/Funko-Pop-Games-Pokemon-Mew/dp/B08NWCS93N/ref=sr_1_10?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=11YBZC18EUCQ0&keywords=mew&qid=1682428587&sprefix=me%2Caps%2C95&sr=8-10" class="btn btninfo btn-outline-primary">Amazon</a></center>
+						<div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle derechainfo colord" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!------------------------------------------------------------------------------------------------------------------------------------------------>	
+
+			
+			<div class="col-12 col-md-4 col-lg-2 my-2 d-flex align-items-stretch">
+				<div class="card">
+					<img class="card-img-top" src="img/bg.jpg" alt="">
+					<div class="card-body cardbodyorange">
+						<h5 class="card-title funko">Scorbunny
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle icon-orange derecha" viewBox="0 0 16 16">
+								<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								<path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+							</svg>
+
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill icon-facil derecha" viewBox="0 0 16 16">
+								<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+							</svg>
+						</h5>
+						<p class="card-text">
+							<center><img src="../img/scorbunny.PNG" class="img-fluid margenes"> </center>
+						</p>
 					</div>
 				</div>
 			</div>
@@ -114,16 +1102,12 @@
 			<div class="row my-3">
 				<div class="col">
 					<div class="card">
-						<div class="card-header">Encabezado</div>
-						<div class="card-body">
-							<h5 class="card-title">Titulo</h5>
-							<p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, dolorum!</p>
-						</div>
-						<div class="card-footer">Pie de página</div>
+						<div class="card-footer"><center>Esta página tiene derechos de autor, consultelo en el siguiente <a href="https://support.google.com/legal/answer/3463239?hl=es">link.</a></center></div>
 					</div>
 				</div>
 			</div>
 		</footer>
+		<div class="row my-3"></div>
 		
 	</div>
 
