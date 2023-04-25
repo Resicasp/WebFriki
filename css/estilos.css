@@ -110,7 +110,28 @@ body{
 	text-align: justify;
 }
 
+.card-title{
+	font-family: Comic Sans MS;
+}
+
+.descripcion{
+	font-family: Comic Sans MS;
+	color: #979797;
+}
+
 html *{
 	font-family: calibri;
-	
+}
+
+
+
+
+@font-face {
+	font-family: letra ;
+	src: url(ChristianSunday.ttf);
+}
+
+.h1{
+	font-family: letra;
+	font-size: 380%;
 }
