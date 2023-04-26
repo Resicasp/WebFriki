@@ -121,8 +121,16 @@ html *{
 	border: 0;
 }
 
+.tamañodiv{
+	width: 230px;
+	height: 80px;
+}
 
 
+.tamañodiv2{
+	width: 230px;
+	height: 150px;
+}
 
 
 
@@ -145,6 +153,12 @@ html *{
 	color: #979797;
 }
 
+.letraroja{
+	color: red;
+}
+
+
+
 
 .h1{
 	font-family: letra;
@@ -162,4 +176,22 @@ html *{
 		column-count: 1;
 	}
 }
+
+@media (max-width: 768px) {
+	.card{
+		width: 100%;
+	}
+}
+
   
+
+
+.link:link, .link:visited, .link:active {
+    text-decoration:none;
+	color: black;
+}
+
+.CARDSVACIOS{
+	border: 0;
+}
+
